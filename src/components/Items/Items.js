@@ -1,7 +1,7 @@
 import React from 'react'
 import './Item.css'
 import { Link } from 'react-router-dom'
-import Card from 'react-bootstrap/Card';
+
 const Items = (props) => {
   return (
   <div>
@@ -23,11 +23,7 @@ const Items = (props) => {
 
       <p className='text-justify'>$ {props.new_price} </p>
    
-      {/* <a href='' className='btn btn-warning '>View Product</a> */}
-      {/* <div className=''>
-        <a href=''><i className="bi bi-heart-fill float-start text-danger fs-2"></i></a>
-        <a href=''><i className="bi bi-cart-plus-fill float-end text-success fs-2"></i></a>
-      </div> */}
+     
       
       </div>
    

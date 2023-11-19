@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { ShopContext } from '../Context/ShopContext';
+// import { ShopContext } from '../Context/ShopContext';
 
 
 const ProductDisplay = (props) => {
@@ -11,7 +11,7 @@ const ProductDisplay = (props) => {
             <section class="py-0">
                 <div class="container px-4 px-lg-5 my-5">
                     <div class="row gx-4 gx-lg-5 align-items-center">
-                        <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src={product.image} alt="..." /></div>
+                        <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src={product.image}  /></div>
                         <div class="col-md-6">
 
                             <h1 class="display-5 fw-bolder">{product.name}</h1>
