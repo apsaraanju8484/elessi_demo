@@ -1,6 +1,6 @@
 {
   "name": "elessi",
-  "homepage": "http://apsaraanju8484.github.io/elessi_demo",
+ 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,5 +44,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.0.0"
+    
   }
 }
