@@ -1,0 +1,15 @@
+
+
+
+.shopcategory-products{
+
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr ;
+ align-items: center;
+ justify-content: center;
+ row-gap: 80px;
+}
+.shopcategory-products img{
+ width: 100%;
+ align-items: center;
+}
