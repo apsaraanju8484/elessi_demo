@@ -1,5 +1,5 @@
 import React, { createContext } from "react";
-import all_product from "../Assets/all_product"
+ import all_product from "../Assets/all_product"
 
 export const ShopContext = createContext(null);
 
@@ -9,6 +9,7 @@ const contextValue = {all_product}
 
   return (
     <ShopContext.Provider value={contextValue}>
+        {/* <ShopContext.Provider > */}
 {props.children}
      </ShopContext.Provider>
   )

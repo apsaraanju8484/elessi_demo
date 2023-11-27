@@ -4,30 +4,73 @@ import { Link } from 'react-router-dom'
 
 const Items = (props) => {
   return (
-  <div>
-      <div className='item col-md-12 text-center '>
-
-
-
-
-
-
-      <div className='bg-light'>
-      
-        <Link to={`/product/${props.id}`} >
-        <p className='fw-bold fs-4 text-dark text-end pb-0 pe-3 pt-3'><i className='bi bi-heart  '></i></p>
-          <img  src={props.image} style={{marginTop:'-23px'}} className='zoom-in-out-box p-0'/></Link>
+    <div>
+       <div className='item col-md-12 text-center '>
+        <div className=''>
+<div class="product-grid">
+        <div class="product">
+          <div class="product-img">
+          <Link to={`/product/${props.id}`} >
+            
+ {/*<img src={props.image} style={{ marginTop: '-23px' }} className='zoom-in-out-box p-0' /> */}
+           
+            
+            <div>
+              <img src={props.image} alt="front product image"  />
+              <img src={props.image1} alt="rear product image" class="rear-img" />
+              <i class="bi bi-eye rear-img1 bg-dark  text-white " ></i>
+              <i class="bi bi-handbag rear-img2 bg-danger  text-white"></i>
+              <i className='bi bi-heart   rear-img3'></i>
+              <div className='box rear-img4 ps-2 pe-2 '>{props.discount}</div>
+            </div>
+  
+          </Link>
+          </div>
         </div>
-    
-      <h6 className='text-justify pt-4'>{props.name}</h6>
-
-      <p className='text-justify'>$ {props.new_price} </p>
-   
-     
-      
+       <div className='row'>
+         <div className='float-start col-md-8'>
+           <h6 className='text-justify pt-4'>{props.name}</h6>
+           <p className='text-justify'>$ {props.new_price} </p>
+         </div>
+         <div className='float-end col-md-4'>
+           
+           <p className='text-end pt-5 circle'>c</p>
+         </div>
+       </div>
       </div>
-   
-  </div>
+       </div>
+      </div>
+     
+
+      {/* <div class="product-grid">
+        <div class="product">
+          <div class="product-img">
+            <img src={props.image} alt="front product image" />
+            <img src="images/1b.jpg" alt="rear product image" class="rear-img" />
+          </div>
+          <div class="product-info">
+
+            <a href="#" class="product-btn">Buy now</a>
+          </div>
+        </div>
+      </div> */}
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   )
 }
 export default Items

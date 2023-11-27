@@ -14,7 +14,7 @@ const ProductDisplay = (props) => {
                         <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src={product.image}  /></div>
                         <div class="col-md-6">
 
-                            <h1 class="display-5 fw-bolder">{product.name}</h1>
+                            <h1 class="display-5 fw-bold">{product.name}</h1>
                             <div class="small mb-1">11 sold in last 21 hours</div>
                             <div><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> 1 review</div>
                             <div class="fs-3 fw-1 mt-3">
@@ -22,7 +22,7 @@ const ProductDisplay = (props) => {
 
 
                             </div>
-                            <p class="mt-5 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.
+                            <p class="mt-2 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 
                             </p>
                             <h6 className=' mb-4 fw-semibold'>HURRY! ONLY 15 LEFT IN STOCK.</h6>

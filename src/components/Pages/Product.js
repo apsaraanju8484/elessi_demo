@@ -3,6 +3,7 @@ import { ShopContext } from '../Context/ShopContext';
 import {useParams} from 'react-router-dom';
 import ProductDisplay from '../ProductDisplay/ProductDisplay';
 import Breadcrums from '../Breadcrums/Breadcrums';
+import Banner from '../Banner';
 
 
 
@@ -12,6 +13,7 @@ const Product = () => {
   const product = all_product.find((e)=> e.id === Number(productId));
   return (
     <div>
+     
     <Breadcrums product={product}/>
    <ProductDisplay product={product}/> 
     </div>
