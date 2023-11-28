@@ -9,7 +9,7 @@ const Items = (props) => {
         <div className=''>
 <div class="product-grid">
         <div class="product">
-          <div class="product-img">
+          <div class="product-img pb-3">
           <Link to={`/product/${props.id}`} >
             
  {/*<img src={props.image} style={{ marginTop: '-23px' }} className='zoom-in-out-box p-0' /> */}
@@ -22,6 +22,7 @@ const Items = (props) => {
               <i class="bi bi-handbag rear-img2 bg-danger  text-white"></i>
               <i className='bi bi-heart   rear-img3'></i>
               <div className='box rear-img4 ps-2 pe-2 '>{props.discount}</div>
+             
             </div>
   
           </Link>
@@ -29,12 +30,14 @@ const Items = (props) => {
         </div>
        <div className='row'>
          <div className='float-start col-md-8'>
-           <h6 className='text-justify pt-4'>{props.name}</h6>
+           <h6 className='text-justify '>{props.name}</h6>
            <p className='text-justify'>$ {props.new_price} </p>
          </div>
-         <div className='float-end col-md-4'>
+         <div className='float-end col-md-4 circle'>
            
-           <p className='text-end pt-5 circle'>c</p>
+         <img src={props.color} className='w-25 '   />
+         <img src={props.color1} className='w-25'   />
+         <img src={props.color2} className='w-25'   />
          </div>
        </div>
       </div>

@@ -10,6 +10,9 @@ let all_product = [
     new_price: 50.0,
     old_price: 80.5,
     discount: "-15%",
+    color:"https://i.pinimg.com/originals/a3/96/07/a396072fdc6d742f886ee58130fb3963.jpg",
+    color1:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREWix4S1Q7klFki6Y89sSBv6wsq9xCW9xyTA&usqp=CAU",
+    color2:"https://i.pinimg.com/736x/2f/04/3d/2f043d358fc45504b2be77d551857a4e.jpg",
   },
   {
     id: 2,
@@ -20,6 +23,9 @@ let all_product = [
     new_price: 85.0,
     old_price: 120.5,
     discount: "-17%",
+    color:"",
+    color1:"",
+    color2:"https://png.pngtree.com/png-clipart/20201029/ourlarge/pngtree-circle-clipart-light-pink-round-png-image_2381954.jpg",
   },
   {
     id: 3,
@@ -48,6 +54,9 @@ let all_product = [
     new_price: 85.0,
     old_price: 120.5,
     discount: "-32%",
+    color:"https://png.pngtree.com/png-clipart/20200801/ourlarge/pngtree-red-solid-color-round-png-image_2319172.jpg",
+    color1:"https://png.pngtree.com/png-clipart/20201029/ourlarge/pngtree-circle-clipart-purple-circle-png-image_2381983.jpg",
+    color2:""
   },
   {
     id: 6,

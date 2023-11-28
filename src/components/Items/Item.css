@@ -184,18 +184,34 @@
     .product-grid{
         grid-template-columns: repeat(2, 1fr);
     }
+    .circle img {
+        width: 50px !important;
+        float: left;
+      }
 }
 
 @media screen and (max-width: 576px){
     .product-grid{
         grid-template-columns: repeat(1, 1fr);
     }
+    .circle img {
+        width: 50px !important;
+        float: left;
+      }
 } 
 @media screen and (max-width: 333px){
-    .circle{
+    .circle {
        text-align: justify;
-       float: left;
-       padding-top: 0px;
-       margin: 0px;
+       
+       
     }
+    .circle img {
+       width: 50px !important;
+       float: left;
+     }
 } 
+
+.circle img {
+    width: 15px !important;
+    
+  }

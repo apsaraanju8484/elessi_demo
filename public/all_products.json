@@ -1,3 +1,4 @@
+
 {
 
  "all_product" : [
@@ -7,9 +8,11 @@
       "category": "all",
       "image":"https://demo-elessi.myshopify.com/cdn/shop/products/5559315300_2_6_1-yellow@2x.jpg?v=1538643905",
       "image1":"https://demo-elessi.myshopify.com/cdn/shop/products/5559315300_2_2_1_360x.jpg?v=1538643905",
+      "imagee":"https://demo-elessi.myshopify.com/cdn/shop/products/5559315300_2_2_1_360x.jpg?v=1538643905",
       "new_price": 50.0,
       "old_price": 80.5,
       "discount": "-15%"
+      
     },
     {
       "id": 2,

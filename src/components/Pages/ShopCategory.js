@@ -21,9 +21,12 @@ const ShopCategory = (props) => {
         name={item.name}
         image={item.image}
         image1={item.image1}
+        color={item.color}
+        color1={item.color1}
+        color2={item.color2}
         new_price={item.new_price}
         old_price={item.old_price}
-        discount={item.discount}
+        discount={item.discount}        
       />
     );
   }
