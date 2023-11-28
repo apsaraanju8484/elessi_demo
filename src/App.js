@@ -13,6 +13,7 @@ import Instagram from './components/Instagram/Instagram';
 import Footer from './components/Footer/Footer';
 import Scrolling from './components/Scrolling/Scrolling';
 import Home from './components/Home';
+import Products from './components/Products/Products';
 
 function App() {
   return (
@@ -23,9 +24,10 @@ function App() {
         <Banner />
         <Gallery />
 
+
         <Navbar /> 
         <Routes>
-          {/* <Route path='/' element={<Home />} /> */}
+        
           <Route path='/all' element={<ShopCategory category="all" />} />
           <Route path='/elessi_demo' element={<Banner />} /> 
           <Route path='/womens' element={<ShopCategory category="women" />} />
@@ -40,7 +42,7 @@ function App() {
 
           <Route path='/product' element={<Product />} >
             <Route path=':productId' element={<Product />} />
-          </Route>
+          </Route> 
 
         </Routes>
          <Scrolling/>

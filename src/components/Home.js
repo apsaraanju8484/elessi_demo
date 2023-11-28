@@ -11,14 +11,14 @@ import Product from './Pages/Product'
 import Scrolling from './Scrolling/Scrolling'
 import Instagram from './Instagram/Instagram'
 import Footer from './Footer/Footer'
-import AllProducts from './AllProducts/AllProducts'
+
 // import Product from './components/Pages/Product';
 const Home = () => {
   return (
     <div>
-   <Banner />
-        <Gallery />
-        <AllProducts/>
+  
+  
+       
     </div>
   )
 }

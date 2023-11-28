@@ -9,11 +9,7 @@ const ShopCategory = (props) => {
 
     <div className='container shop-category text-ceter'>
       <div className='row shopcategory-products'>
-        {/* {all_product.map((item, i) => {
-          if (props.category === item.category) {
-             <Items key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />
-          }
-        })} */}
+       
 
 
 {all_product.map((item, i) => {

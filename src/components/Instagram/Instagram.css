@@ -2,3 +2,8 @@
 
 opacity: .5;
 }
+.card-img, .card-img-top {
+    border:0.01px white;
+    border-style: none;
+    
+} 
